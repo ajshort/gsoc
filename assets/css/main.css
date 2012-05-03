@@ -1,0 +1,64 @@
+html, body {
+	font: 13px/20px Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	background: #F9F9F9;
+	border-bottom: 3px solid #EEE;
+	overflow: auto;
+	padding: 15px 20px;
+}
+
+#header h2 a {
+	color: #333;
+	font-size: 26px;
+	text-decoration: none;
+}
+
+#header ul {
+	list-style: none;
+	margin: 10px 0 0;
+	padding: 0;
+}
+	#header ul li {
+		display: block;
+		float: left;
+		margin-right: 10px;
+	}
+		#header ul a {
+			color: #222;
+			font-size: 16px;
+			font-weight: bold;
+			padding: 4px;
+			text-decoration: none;
+		}
+		#header ul a:hover {
+			background: #FFF;
+		}
+
+#content {
+	width: 800px;
+	padding: 15px 20px;
+}
+
+h1 {
+	font-size: 28px;
+}
+
+blockquote {
+	border-left: 2px solid #EEE;
+	margin: 0;
+	padding: 0 0 0 10px;
+}
+	blockquote p {
+		margin-bottom: 5px;
+	}
+	blockquote small {
+		font-size: 13px;
+		color: #666;
+	}
+	blockquote small:before {
+		content: "— ";
+	}

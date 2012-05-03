@@ -1,0 +1,35 @@
+---
+title:  Home
+layout: default
+---
+
+<h1>Google Summer of Code 2012</h1>
+
+<blockquote>
+	<p>
+		Welcome to the site for tracking my progress during the
+		<a href="http://google-melange.com">Google Summer of Code</a>. I'm
+		working with <a href="http://silverstripe.org">SilverStripe</a> to
+		refactor the SilverStripe Framework's module system. This will include
+		integrating with <a href="http://getcomposer.org">Composer</a>. The aim
+		is to make it easier for both module maintainers and users to create,
+		share and use modules, as well as establish a functional API around the
+		module system. I&apos;ll try to keep this site updated with my plans
+		and progress over the course of the project.
+	</p>
+	<small>Andrew Short</small>
+</blockquote>
+
+<h2>Posts</h2>
+
+{% if site.posts.length %}
+	<ul>
+		{% for post in site.posts %}
+			<li>
+				<a href="{{ post.url }}">{{ post.title }}</a> &mdash; {{ post.date | date_to_string }}
+			</li>
+		{% endfor %}
+	</ul>
+{% else %}
+	<p>There are currently no posts.</p>
+{% endif %}
