@@ -22,14 +22,10 @@ layout: default
 
 <h2>Posts</h2>
 
-{% if site.posts.length %}
-	<ul>
-		{% for post in site.posts %}
-			<li>
-				<a href="/{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a> &mdash; {{ post.date | date_to_string }}
-			</li>
-		{% endfor %}
-	</ul>
-{% else %}
-	<p>There are currently no posts.</p>
-{% endif %}
+<ul>
+	{% for post in site.posts %}
+		<li>
+			<a href="/{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a> &mdash; {{ post.date | date_to_string }}
+		</li>
+	{% endfor %}
+</ul>
