@@ -9,6 +9,10 @@ such as providing permissions, building databases and much more. Rather than
 relying on explicit registries for things, SilverStripe will look for classes
 that implement interfaces or extend other classes.
 
+The inbuilt PHP reflection utlities aren't suitable for getting this
+information - doing so would require including every single PHP file, and is
+not a feasible solution.
+
 As such a very important component of SilverStripe is a utility that parses
 each PHP file in the project, and extracts the classes and interfaces within,
 as well as information such as which class they extend, interfaces they
