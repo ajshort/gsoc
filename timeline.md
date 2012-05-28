@@ -29,6 +29,9 @@ This will be expanded on as GSOC approaches.
 
 **Completed**
 
+* Initial class parser implementation (https://gist.github.com/2818026)
+* Initial proof of concept composer installer (https://github.com/ajshort/silverstripe-composer-installer)
+
 ### May 28 - June 4
 
 **Planned**
