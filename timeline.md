@@ -3,7 +3,7 @@ title:  Timeline
 layout: default
 ---
 
-Timeline
+General timeline
 ========
 
 The project can be broken down into two main phases or outcomes - the first is
@@ -19,3 +19,20 @@ current (very rough) planned timeline is:
 * **13th August** GSOC finishes.
 
 This will be expanded on as GSOC approaches.
+
+### May 21 - May 28
+
+**Planned**
+
+* Autoloading investigation - PSR, manifest only?
+* Writing a PHP class parser to work around limitations of first loading all classes, as well as being able to generate more specific data to SS
+
+**Completed**
+
+### May 28 - June 4
+
+**Planned**
+
+**Completed**
+
+
