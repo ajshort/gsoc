@@ -36,6 +36,12 @@ This will be expanded on as GSOC approaches.
 
 **Planned**
 
+* Mailing list post for community input on whether interim composer support is desired
+* Will be putting together test examples of class parser to demonstrate fringe cases
+* Application / Module structure development
+  * https://gist.github.com/dc9b7db44d1fac52fd8b
+* Clarify module project
+
 **Completed**
 
 
