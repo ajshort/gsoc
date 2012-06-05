@@ -39,9 +39,19 @@ This will be expanded on as GSOC approaches.
 * Mailing list post for community input on whether interim composer support is desired
 * Will be putting together test examples of class parser to demonstrate fringe cases
 * Application / Module structure development
-  * https://gist.github.com/dc9b7db44d1fac52fd8b
-* Clarify module project
+** https://gist.github.com/dc9b7db44d1fac52fd8b
+* Clarify module project relationship (vikas' other module website project)
 
 **Completed**
 
+* Mailing list post at https://groups.google.com/group/silverstripe-dev/browse_thread/thread/dd629a5aab12d796
+* Test examples pending
+* Discussion has taken place with Vikas, appears to be headed in the correct direction
+
+
+### June 4 - June 21
+
+**Planned**
+
+* Minimal updates; exam period 
 
