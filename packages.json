@@ -26,6 +26,19 @@
 				}
 			}
 		},
+		"zendframework/zend-servicemanager": {
+			"2.0.0beta4": {
+				"name": "zendframework/zend-servicemanager",
+				"version": "2.0.0beta4",
+				"dist": {
+					"url": "http://packages.zendframework.com/get/Zend_ServiceManager-2.0.0beta4.tgz",
+					"type": "pear"
+				},
+				"autoload": {
+					"psr-0": { "Zend\\ServiceManager": "php/" }
+				}
+			}
+		},
 		"zendframework/zend-stdlib": {
 			"2.0.0beta4": {
 				"name": "zendframework/zend-stdlib",
