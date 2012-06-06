@@ -5,11 +5,24 @@
 				"name": "zendframework/zend-cache",
 				"version": "2.0.0beta4",
 				"dist": {
-					"url": "http://packages.zendframework.com/get/Zend_Cache-2.0.0beta3.tgz",
+					"url": "http://packages.zendframework.com/get/Zend_Cache-2.0.0beta4.tgz",
 					"type": "pear"
 				},
 				"autoload": {
 					"psr-0": { "Zend\\Cache": "php/" }
+				}
+			}
+		},
+		"zendframework/zend-eventmanager": {
+			"2.0.0beta4": {
+				"name": "zendframework/zend-eventmanager",
+				"version": "2.0.0beta4",
+				"dist": {
+					"url": "http://packages.zendframework.com/get/Zend_EventManager-2.0.0beta4.tgz",
+					"type": "pear"
+				},
+				"autoload": {
+					"psr-0": { "Zend\\EventManager": "php/" }
 				}
 			}
 		},
