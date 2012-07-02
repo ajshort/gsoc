@@ -56,7 +56,7 @@ This will be expanded on as GSOC approaches.
 * Minimal updates; exam period 
 
 
-** Completed
+**Completed**
 
 * Work to bring the module and application structure into sapphire core
 * https://github.com/ajshort/sapphire/commit/198944452172a0e24494cae59be0d6a5f8b39c05
@@ -72,11 +72,11 @@ This will be expanded on as GSOC approaches.
 
 ### June 25 - July 2
 
-** Planned **
+**Planned**
 
 * Rewrite config manifest generation to fix some issues 
 
-** Completed **
+**Completed**
 
 * https://github.com/ajshort/sapphire/commit/7be7fa8f3c387ded83fdcd41bd466c86154febd9
 * https://github.com/ajshort/sapphire/commit/d00f6c8b0622c641920562943282a97ee46f7eb5
