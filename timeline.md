@@ -81,4 +81,9 @@ This will be expanded on as GSOC approaches.
 * https://github.com/ajshort/sapphire/commit/7be7fa8f3c387ded83fdcd41bd466c86154febd9
 * https://github.com/ajshort/sapphire/commit/d00f6c8b0622c641920562943282a97ee46f7eb5
 
+### July 3 - July 9
 
+**Planned**
+
+* Rework the config and injector system
+* Get basic HTTP handling working
